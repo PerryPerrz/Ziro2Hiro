@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Gluten:wght@400;500;600;700&display=swap");
+
+:root {
+    --logo-dark-blue: #000072;
+    --logo-blue: #0096f1;
+    --logo-orange: #fba328;
+    --logo-pink: #ff69a0;
+    --logo-white: #ffffff;
+
+}
+
+html,
+body {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gluten", sans-serif!important;
+}

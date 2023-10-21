@@ -1,0 +1,15 @@
+<h2 mat-dialog-title>Add a Hero</h2>
+<mat-dialog-content>
+  <form (ngSubmit)="onSubmit()">
+    <mat-form-field>
+      <input matInput placeholder="Hero name" [(ngModel)]="name" name="name" required>
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="Nemesis name" [(ngModel)]="nemesis" name="nemesis" required>
+    </mat-form-field>
+  </form>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button (click)="onCancel()">Cancel</button>
+  <button mat-button (click)="onSubmit()">Add</button>
+</mat-dialog-actions>

@@ -1,0 +1,11 @@
+<div class="card-container-header">
+    <mat-card-actions>
+        <button (click)="addHero()">Add a Hero</button>
+    </mat-card-actions>
+</div>
+
+<div class="card-container">
+    <div *ngFor="let hero of heroes$ | async">
+        <card [hero]="hero" (deleteHero)="deleteHero($event)"></card>
+    </div>
+</div>
