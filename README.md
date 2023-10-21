@@ -1,2 +1,2 @@
 # Ziro2Hiro
-Angular web application to display Marvel heroes card.
+Angular web application to display heroes card.
