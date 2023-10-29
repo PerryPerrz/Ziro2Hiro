@@ -13,6 +13,7 @@
 .navbar .app-name {
     text-align: center;
     padding: 10px;
-    color: var(--logo-dark-blue);
+    color: var(--logo-blue);
     font-size: 30px;
+    font-weight: bold;
 }

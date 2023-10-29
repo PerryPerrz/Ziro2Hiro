@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: center;
     background-color: var(--logo-blue);
+    margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 10px;
     margin-right: 10px;
@@ -14,6 +15,8 @@
 .card:hover {
     border-color: var(--logo-dark-blue);
     border-width: 4px;
+    transform: scale(1.05);
+    transition: .3s;
 }
 
 button {
